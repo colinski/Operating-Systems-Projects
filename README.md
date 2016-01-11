@@ -4,7 +4,7 @@ These projects were part of CS537 (Intro to OS) at UW-Madison Fall 2015
 
 My partner was Sam Mergendahl (github.com/smergendahl)
 
-Links to the project descriptions are indluced
+Links to the project descriptions are included
 
 #xv6 Projects
 * P1
