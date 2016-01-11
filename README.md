@@ -6,6 +6,10 @@ My partner was Sam Mergendahl (github.com/smergendahl)
 
 Links to the project descriptions are included
 
+More info about xv6 is avaiable here:
+
+https://pdos.csail.mit.edu/6.828/2012/xv6.html
+
 #xv6 Projects
 * P1
 
