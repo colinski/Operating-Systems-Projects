@@ -1,0 +1,13 @@
+Name: 		Colin Samplawski
+Name: 		Sam Mergendahl
+CS Login:	samplawski
+CS Login:	mergenda
+NetId:		csamplawski
+NetId:		smergendahl
+
+We created a simple queue using a linked list to store the
+requests. After creating the threads, the worker threads
+cond_wait on the queue being empty, and the producer thread
+cond_wait on the queue being "full" (at the max size). After waking up
+a worker dequeues a request and handles it, while the producer thread
+enqueues a request.

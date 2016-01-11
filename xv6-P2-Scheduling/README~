@@ -5,6 +5,15 @@ CS Logins:		samplawski
 Wisc Logins:	csamplawski
 				smergendahl
 
+Program 2
+Part a
+We simply wrote a program that read in input from either file or an input file
+(using dup() and dup2() to redirect stdout). Then each line was parsed and saved 
+into history which was a circular arry. Then we checked to see if the input line 
+was a history or exit command. If it was neither, the line was passed to execvp
+,after first forking the running process. Incorrect commands were caught there.
+
+Part b
 We added the getpinfo system call in the same way as with Program 1.
 We moved the ptable struct into a .h file so that sysproc.c can access it.
 We modified the allocproc function to setup each process at the highest priority

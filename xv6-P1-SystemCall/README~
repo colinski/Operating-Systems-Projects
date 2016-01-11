@@ -4,6 +4,11 @@ Program 1
 CS 537
 DIS 302
 
+rangesort part:
+For rangesort I simply read in the records and then used C's qsort() function to sort the records.
+Then when I writing to the output file, I checked to make sure the values were in the given range.
+
+xv6 part:
 I used grep to find all the places where some other syscall (getpid) was mentioned.
 I then mirrored that code to add my own syscall.
 I added my counters to syscall.c since that it from where all syscalls are called and returned.
